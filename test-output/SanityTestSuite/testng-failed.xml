@@ -3,6 +3,7 @@
 <suite thread-count="1" parallel="tests" name="Failed suite [SanityTestSuite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="listeners.TestListener"/>
+    <listener class-name="retryAnalyzer.MyTransformer"/>
   </listeners>
   <test thread-count="1" parallel="tests" name="SanityTests(failed)">
     <classes>

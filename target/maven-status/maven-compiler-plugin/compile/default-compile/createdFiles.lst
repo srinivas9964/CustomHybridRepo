@@ -5,6 +5,8 @@ manager\PageObjectManager.class
 listeners\ReportLogger.class
 utils\ConfigReader.class
 core\DriverFactory.class
+retryAnalyzer\FailRetryAnalyzer.class
+retryAnalyzer\MyTransformer.class
 utils\WaitUtils.class
 utils\TimeUtil.class
 core\Base.class

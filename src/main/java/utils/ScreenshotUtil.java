@@ -31,4 +31,9 @@ public class ScreenshotUtil {
             return null;
         }
     }
+    
+    public static String getBase64Screenshot(WebDriver driver) {
+        return ((TakesScreenshot) driver)
+                .getScreenshotAs(OutputType.BASE64);
+    }
 }

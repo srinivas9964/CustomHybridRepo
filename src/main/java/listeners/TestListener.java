@@ -12,6 +12,7 @@ import java.util.Map;
 import org.testng.*;
 import com.aventstack.extentreports.*;
 import reports.ExtentManager;
+import retryAnalyzer.FailRetryAnalyzer;
 import utils.ConfigReader;
 import utils.ScreenshotUtil;
 import utils.TimeUtil;
@@ -54,11 +55,16 @@ public class TestListener implements ITestListener {
     
     @Override
     public void onTestFailure(ITestResult result) {
-
-        String screenshotPath = ScreenshotUtil.capture(result.getName());
-        test.get().fail("Test Failed",
-                MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-        	logExecutionTime(result);
+    	//Appending Screenshots to the Report using Base64 to avoid screenshot dependency while report sharing
+    	 String base64Screenshot = ScreenshotUtil.getBase64Screenshot(DriverFactory.getDriver());
+    	 test.get().fail("Login failed",MediaEntityBuilder
+    			 .createScreenCaptureFromBase64String(base64Screenshot, "Failure Screenshot").build());
+    	 
+//   	 Appending Screenshots to the Report in Local Machine Only ( While Sharing to Someone Screenshots won't be available )
+//        String screenshotPath = ScreenshotUtil.capture(result.getName());
+//        test.get().fail("Test Failed",
+//                MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+//        	logExecutionTime(result);
     }
     
     @Override
@@ -72,6 +78,7 @@ public class TestListener implements ITestListener {
     	ExtentManager.getExtent().setSystemInfo("Total Suite Execution Time:",SuiteTimeTracker.getSuiteExecutionTime());
         extent.flush();
     }
+    
     
     private void logExecutionTime(ITestResult result) {
         long start = startTimeMap.get(result.getName());

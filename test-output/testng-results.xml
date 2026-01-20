@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-09T20:53:22 IST" name="SanityTestSuite" finished-at="2026-01-09T20:54:04 IST" duration-ms="41957">
+  <suite started-at="2026-01-20T18:55:08 IST" name="SanityTestSuite" finished-at="2026-01-20T18:56:17 IST" duration-ms="68664">
     <groups>
     </groups>
-    <test started-at="2026-01-09T20:53:22 IST" name="SanityTests" finished-at="2026-01-09T20:54:04 IST" duration-ms="41957">
+    <test started-at="2026-01-20T18:55:08 IST" name="SanityTests" finished-at="2026-01-20T18:56:17 IST" duration-ms="68664">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4b8729ff]" started-at="2026-01-09T20:53:22 IST" name="setUp" finished-at="2026-01-09T20:53:25 IST" duration-ms="2258" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@45efd90f]" started-at="2026-01-20T18:55:08 IST" name="setUp" finished-at="2026-01-20T18:55:39 IST" duration-ms="31024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4b8729ff]" started-at="2026-01-09T20:53:25 IST" name="testLogin" data-provider="loginData" finished-at="2026-01-09T20:53:38 IST" duration-ms="13079" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@45efd90f]" started-at="2026-01-20T18:55:39 IST" name="testLogin" data-provider="loginData" finished-at="2026-01-20T18:55:49 IST" duration-ms="10032" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4b8729ff]" started-at="2026-01-09T20:53:38 IST" name="tearDown" finished-at="2026-01-09T20:53:38 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45efd90f]" started-at="2026-01-20T18:55:49 IST" name="tearDown" finished-at="2026-01-20T18:55:50 IST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4b8729ff]" started-at="2026-01-09T20:53:38 IST" name="setUp" finished-at="2026-01-09T20:53:39 IST" duration-ms="1129" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@45efd90f]" started-at="2026-01-20T18:55:50 IST" name="setUp" finished-at="2026-01-20T18:55:52 IST" duration-ms="1585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@4b8729ff]" started-at="2026-01-09T20:53:39 IST" name="testLogin" data-provider="loginData" finished-at="2026-01-09T20:54:03 IST" duration-ms="24033" status="FAIL">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@45efd90f]" started-at="2026-01-20T18:55:52 IST" name="testLogin" data-provider="loginData" finished-at="2026-01-20T18:56:16 IST" duration-ms="23984" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -82,15 +82,15 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
-  (Session info: chrome=143.0.7499.170)
+  (Session info: chrome=143.0.7499.193)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61555b4f5faf86052b4d1e6ae22807c8, findElement {value=//h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\rajas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52726}, goog:processID: 1256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52726/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61555b4f5faf86052b4d1e6ae22807c8
-at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+Command: [3fa997f6ad4fbe73799c948ef29b6153, findElement {value=//h6[text()='Dashboard'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\rajas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60262}, goog:processID: 7856, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60262/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3fa997f6ad4fbe73799c948ef29b6153
+at jdk.internal.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -115,7 +115,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4b8729ff]" started-at="2026-01-09T20:54:03 IST" name="tearDown" finished-at="2026-01-09T20:54:04 IST" duration-ms="595" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@45efd90f]" started-at="2026-01-20T18:56:16 IST" name="tearDown" finished-at="2026-01-20T18:56:16 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
