@@ -9,10 +9,11 @@
     </listeners>
   <test name="SanityTests">
     <classes>
-      <class name="tests.LoginTest"/>
+      <!-- <class name="tests.LoginTest"/>  --> 
+   		<class name="tests.AddEmployeeTest"/> 
+      <!-- <class name="tests.PunchTimeTest"/> --> 
     </classes>
   </test>
 </suite>
-
 
 

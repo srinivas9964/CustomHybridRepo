@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" name="RegressionTests(failed)">
     <classes>
+      <class name="tests.AddEmployeeTest">
+        <methods>
+          <include name="addEmployee" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddEmployeeTest -->
       <class name="tests.LoginTest">
         <methods>
           <include name="setUp"/>

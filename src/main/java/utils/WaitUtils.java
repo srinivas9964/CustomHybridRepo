@@ -22,6 +22,10 @@ public class WaitUtils {
     public WebElement waitForVisibility(By locator) {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+    
+    public boolean waitForNotVisibility(By locator) {
+    	return wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+    }
 
     public WebElement waitForClickable(By locator) {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
@@ -30,7 +34,10 @@ public class WaitUtils {
     public boolean waitForText(By locator, String text) {
         return wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
     }
-
+    
+    public boolean waitForUrlContains(String urlText) {
+    	return wait.until(ExpectedConditions.urlContains(urlText));
+    }
     public void waitForAlert() {
         wait.until(ExpectedConditions.alertIsPresent());
     }

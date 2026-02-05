@@ -11,7 +11,12 @@ public class MyTransformer implements IAnnotationTransformer {
 	@Override
 	public void transform(ITestAnnotation annotation, Class testclass, Constructor testContructor, Method testMethod)
 	{
-		annotation.setRetryAnalyzer(FailRetryAnalyzer.class);
+		try {
+			annotation.setRetryAnalyzer(FailRetryAnalyzer.class);
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 }

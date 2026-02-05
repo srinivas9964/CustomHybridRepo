@@ -21,11 +21,9 @@ public class Base {
 			DriverFactory.initDriver(browser);
 			pages = new PageObjectManager();
 			//DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(ConfigReader.getInt("implicit.wait")));
-			//ExtentManager.initReports();
 		}
-		catch(Exception e)
-		{
-			e.getMessage();
+		catch(Exception e) {
+			System.out.println(e.getMessage());
 		}
 		
 	}
@@ -33,7 +31,6 @@ public class Base {
 	@AfterMethod
 	public void tearDown() {
 	DriverFactory.quitDriver();
-	//ExtentManager.flushReports();
 	}	
 	}
 

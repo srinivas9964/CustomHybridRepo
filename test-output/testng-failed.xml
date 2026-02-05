@@ -7,13 +7,13 @@
   </listeners>
   <test thread-count="1" parallel="tests" name="SanityTests(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="tests.AddEmployeeTest">
         <methods>
+          <include name="addEmployee" invocation-numbers="0 1"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testLogin" invocation-numbers="1"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- tests.AddEmployeeTest -->
     </classes>
   </test> <!-- SanityTests(failed) -->
 </suite> <!-- Failed suite [SanityTestSuite] -->

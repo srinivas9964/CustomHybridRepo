@@ -5,6 +5,7 @@ import core.DriverFactory;
 import listeners.ReportLogger;
 import pages.LoginPage;
 import utils.ExcelUtils;
+import utils.ScreenshotUtil;
 import utils.ConfigReader;
 
 import org.openqa.selenium.By;
@@ -14,6 +15,9 @@ import java.time.Duration;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.MediaEntityBuilder;
+
 import java.util.List;
 import java.util.Map;
 public class LoginTest extends Base{
@@ -21,7 +25,7 @@ public class LoginTest extends Base{
 			
 	@DataProvider(name = "loginData")
 	public Object[][] loginData() throws Exception {
-	List<Map<String, String>> rows = ExcelUtils.readLoginSheetSheetData(ConfigReader.get("excelLoginData"),ConfigReader.get("loginDataSheetName"));
+	List<Map<String, String>> rows = ExcelUtils.readLoginSheetSheetData(ConfigReader.get("excelTestData"),ConfigReader.get("loginDataSheetName"));
 	Object[][] data = new Object[rows.size()][2];
 	for (int i = 0; i < rows.size(); i++) {
 	data[i][0] = rows.get(i).get("username");
@@ -33,16 +37,17 @@ public class LoginTest extends Base{
 
 	@Test(dataProvider = "loginData")
 	public void testLogin(String user, String pass) {
-		DriverFactory.getDriver().get(ConfigReader.get("url"));
-		ReportLogger.stepPass("Launch application");
-		pages.getLoginPage().login(user, pass);
-//	wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(20));
-//	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='username']")));
-//	wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='username']")));
-//	pages.getLoginPage().enterUsername(user);
-//	pages.getLoginPage().enterPassword(pass);
-//	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
-//	pages.getLoginPage().clickLogin();
-//Assert.assertTrue(pages.getLoginPage().isLoggedIn(), "Login failed for user: " + user);
+			DriverFactory.getDriver().get(ConfigReader.get("url"));
+			ReportLogger.stepPass("Launch application");
+			pages.getLoginPage().verifylogin(user, pass); 
+			pages.getHomePage().logOut();
+//		wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(20));
+//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='username']")));
+//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='username']")));
+//		pages.getLoginPage().enterUsername(user);
+//		pages.getLoginPage().enterPassword(pass);
+//		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
+//		pages.getLoginPage().clickLogin();
+	//Assert.assertTrue(pages.getLoginPage().isLoggedIn(), "Login failed for user: " + user);
 	}
 }

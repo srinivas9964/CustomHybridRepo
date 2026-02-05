@@ -8,18 +8,31 @@ public class ConfigReader {
 
 	static {
 	try {
-	FileInputStream fis = new FileInputStream("C:\\Users\\rajas\\eclipse-workspace\\HybridFramework\\config\\config.properties");
-	props.load(fis);
-	} catch (Exception e) {
+		FileInputStream fis = new FileInputStream("C:\\Users\\rajas\\eclipse-workspace\\HybridFramework\\config\\config.properties");
+		props.load(fis);
+	} 
+	catch (Exception e) {
 	System.out.println("Could not load config.properties: " + e.getMessage());
-	}
+		}
 	}
 
 	public static String get(String key) {
-	return props.getProperty(key);
+		try {
+			return props.getProperty(key);
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return null;
+		}
 	}
 	
 	public static int getInt(String key) {
-        return Integer.parseInt(props.getProperty(key));
+		try {
+			 return Integer.parseInt(props.getProperty(key));
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+			return 0;
+		}
 	}
 }

@@ -3,6 +3,8 @@ package core;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigReader;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -16,31 +18,47 @@ return driver.get();
 
 
 public static void initDriver(String browser) {
-if (driver.get() == null) {
-if (browser == null || browser.equalsIgnoreCase("chrome")) 
-{
-	WebDriverManager.chromedriver().setup();
-	ChromeOptions options = new ChromeOptions();
-	if(ConfigReader.get("chromeHeadless").equalsIgnoreCase("true")) {
-		options.addArguments("--headless");
+		try {
+			if (driver.get() == null) {
+				if (browser == null || browser.equalsIgnoreCase("chrome")) 
+				{
+					WebDriverManager.chromedriver().setup();
+					ChromeOptions options = new ChromeOptions();
+					if(ConfigReader.get("chromeHeadless").equalsIgnoreCase("true")) {
+						options.addArguments("--headless");
+					}
+					options.addArguments("--start-maximized");
+					driver.set(new ChromeDriver(options));
+					WebDriver webDriver = driver.get();
+		            // Defining the wait to load the broswer
+		            webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+		            // Optional Implicit wait
+		            webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+					
+				} 
+				else {
+				// add firefox/edge later
+				WebDriverManager.chromedriver().setup();
+				driver.set(new ChromeDriver());
+				}
+				}
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
-	options.addArguments("--start-maximized");
-	driver.set(new ChromeDriver(options));
-} 
-else {
-// add firefox/edge later
-WebDriverManager.chromedriver().setup();
-driver.set(new ChromeDriver());
-}
-}
-}
 
 
 
 public static void quitDriver() {
-if (driver.get() != null) {
-driver.get().quit();
-driver.remove();
-}
-}
+	try {
+		if (driver.get() != null) {
+			driver.get().quit();
+			driver.remove();
+			}
+	}
+	catch(Exception e) {
+		System.out.println(e.getMessage());
+		}
+	}
 }
