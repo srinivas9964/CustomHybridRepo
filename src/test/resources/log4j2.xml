@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+    <Properties>
+        <Property name="LOG_DIR">logs</Property>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- Routing appender for per-test logs -->
+        <Routing name="RoutingAppender">
+            <Routes pattern="${ctx:testName}">
+                <Route>
+                    <RollingFile name="Rolling-${ctx:testName}"
+                                 fileName="${LOG_DIR}/${ctx:testName}.log"
+                                 filePattern="${LOG_DIR}/archive/${ctx:testName}-%d{yyyy-MM-dd_HH-mm-ss}-%i.log">
+                        <PatternLayout pattern="${LOG_PATTERN}"/>
+                        <Policies>
+                            <SizeBasedTriggeringPolicy size="10MB"/>
+                        </Policies>
+                    </RollingFile>
+                </Route>
+            </Routes>
+        </Routing>
+
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RoutingAppender"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

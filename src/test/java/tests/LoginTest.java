@@ -16,7 +16,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.MediaEntityBuilder;
 
 import java.util.List;
 import java.util.Map;
@@ -35,7 +34,7 @@ public class LoginTest extends Base{
 	}
 
 
-	@Test(dataProvider = "loginData")
+	@Test(dataProvider = "loginData", priority=1)
 	public void testLogin(String user, String pass) {
 			DriverFactory.getDriver().get(ConfigReader.get("url"));
 			ReportLogger.stepPass("Launch application");

@@ -1,0 +1,32 @@
+2026-02-05 17:42:34 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Started: testLogin ===
+2026-02-05 17:42:50 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Launch application | 05-02-2026 17:42:50
+2026-02-05 17:42:56 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 17:42:56
+2026-02-05 17:42:56 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 17:42:56
+2026-02-05 17:42:56 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 17:42:56
+2026-02-05 17:42:57 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 17:42:57
+2026-02-05 17:43:09 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 17:43:09
+2026-02-05 17:43:11 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 17:43:11
+2026-02-05 17:43:11 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Finished: testLogin ===
+2026-02-05 17:43:19 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Started: testLogin ===
+2026-02-05 17:43:30 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Launch application | 05-02-2026 17:43:30
+2026-02-05 17:43:32 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 17:43:32
+2026-02-05 17:43:32 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 17:43:32
+2026-02-05 17:43:32 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 17:43:32
+2026-02-05 17:43:32 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 17:43:32
+2026-02-05 17:43:53 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Finished: testLogin ===
+2026-02-05 18:42:50 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Started: testLogin ===
+2026-02-05 18:42:57 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Launch application | 05-02-2026 18:42:57
+2026-02-05 18:43:00 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 18:43:00
+2026-02-05 18:43:00 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 18:43:00
+2026-02-05 18:43:01 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 18:43:01
+2026-02-05 18:43:05 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 18:43:05
+2026-02-05 18:43:06 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 18:43:06
+2026-02-05 18:43:07 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 18:43:07
+2026-02-05 18:43:07 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Finished: testLogin ===
+2026-02-05 18:43:12 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Started: testLogin ===
+2026-02-05 18:43:20 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Launch application | 05-02-2026 18:43:20
+2026-02-05 18:43:22 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 18:43:22
+2026-02-05 18:43:22 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 18:43:22
+2026-02-05 18:43:22 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 18:43:22
+2026-02-05 18:43:22 [TestNG-test-RegressionTests-1] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 18:43:22
+2026-02-05 18:43:43 [TestNG-test-RegressionTests-1] INFO  tests.LoginTest - === Test Finished: testLogin ===

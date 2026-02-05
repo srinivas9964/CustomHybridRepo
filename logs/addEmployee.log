@@ -1,0 +1,84 @@
+2026-02-05 17:42:35 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Started: addEmployee ===
+2026-02-05 17:42:54 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Launch application | 05-02-2026 17:42:54
+2026-02-05 17:42:56 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 17:42:56
+2026-02-05 17:42:56 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 17:42:56
+2026-02-05 17:42:57 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 17:42:57
+2026-02-05 17:43:00 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 17:43:00
+2026-02-05 17:43:04 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 17:43:04
+2026-02-05 17:43:16 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on PIM Section | 05-02-2026 17:43:16
+2026-02-05 17:43:26 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - PIM Header Present | 05-02-2026 17:43:26
+2026-02-05 17:43:26 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Add Employee | 05-02-2026 17:43:26
+2026-02-05 17:43:36 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Add Employee Section Present | 05-02-2026 17:43:36
+2026-02-05 17:43:36 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the First | 05-02-2026 17:43:36
+2026-02-05 17:43:36 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Middle Name | 05-02-2026 17:43:36
+2026-02-05 17:43:36 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Last Name | 05-02-2026 17:43:36
+2026-02-05 17:43:37 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Save Button | 05-02-2026 17:43:37
+2026-02-05 17:43:48 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Employee List | 05-02-2026 17:43:48
+2026-02-05 17:43:50 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Employee List Section Present | 05-02-2026 17:43:50
+2026-02-05 17:43:51 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Search | 05-02-2026 17:43:51
+2026-02-05 17:43:54 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Srinivasa:Employee Record Exist | 05-02-2026 17:43:54
+2026-02-05 17:43:54 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 17:43:54
+2026-02-05 17:43:54 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Finished: addEmployee ===
+2026-02-05 17:43:57 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Started: addEmployee ===
+2026-02-05 17:44:10 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Launch application | 05-02-2026 17:44:10
+2026-02-05 17:44:12 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 17:44:12
+2026-02-05 17:44:12 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 17:44:12
+2026-02-05 17:44:12 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 17:44:12
+2026-02-05 17:44:12 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 17:44:12
+2026-02-05 17:44:19 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 17:44:19
+2026-02-05 17:44:35 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on PIM Section | 05-02-2026 17:44:35
+2026-02-05 17:44:43 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - PIM Header Present | 05-02-2026 17:44:43
+2026-02-05 17:44:44 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Add Employee | 05-02-2026 17:44:44
+2026-02-05 17:44:51 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Add Employee Section Present | 05-02-2026 17:44:51
+2026-02-05 17:44:51 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the First | 05-02-2026 17:44:51
+2026-02-05 17:44:51 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Middle Name | 05-02-2026 17:44:51
+2026-02-05 17:44:51 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Last Name | 05-02-2026 17:44:51
+2026-02-05 17:44:52 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Save Button | 05-02-2026 17:44:52
+2026-02-05 17:45:06 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Employee List | 05-02-2026 17:45:06
+2026-02-05 17:45:07 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Employee List Section Present | 05-02-2026 17:45:07
+2026-02-05 17:45:07 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Search | 05-02-2026 17:45:07
+2026-02-05 17:45:09 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Charan:Employee Record Exist | 05-02-2026 17:45:09
+2026-02-05 17:45:10 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 17:45:10
+2026-02-05 17:45:10 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Finished: addEmployee ===
+2026-02-05 18:42:50 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Started: addEmployee ===
+2026-02-05 18:42:58 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Launch application | 05-02-2026 18:42:58
+2026-02-05 18:43:00 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 18:43:00
+2026-02-05 18:43:00 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 18:43:00
+2026-02-05 18:43:01 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 18:43:01
+2026-02-05 18:43:05 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 18:43:05
+2026-02-05 18:43:06 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 18:43:06
+2026-02-05 18:43:19 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on PIM Section | 05-02-2026 18:43:19
+2026-02-05 18:43:29 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - PIM Header Present | 05-02-2026 18:43:29
+2026-02-05 18:43:30 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Add Employee | 05-02-2026 18:43:30
+2026-02-05 18:43:40 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Add Employee Section Present | 05-02-2026 18:43:40
+2026-02-05 18:43:40 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the First | 05-02-2026 18:43:40
+2026-02-05 18:43:40 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Middle Name | 05-02-2026 18:43:40
+2026-02-05 18:43:40 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Last Name | 05-02-2026 18:43:40
+2026-02-05 18:43:40 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Save Button | 05-02-2026 18:43:40
+2026-02-05 18:43:53 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Employee List | 05-02-2026 18:43:53
+2026-02-05 18:43:54 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Employee List Section Present | 05-02-2026 18:43:54
+2026-02-05 18:43:55 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Search | 05-02-2026 18:43:55
+2026-02-05 18:43:58 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Srinivasa:Employee Record Exist | 05-02-2026 18:43:58
+2026-02-05 18:43:58 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 18:43:58
+2026-02-05 18:43:58 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Finished: addEmployee ===
+2026-02-05 18:44:01 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Started: addEmployee ===
+2026-02-05 18:44:08 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Launch application | 05-02-2026 18:44:08
+2026-02-05 18:44:10 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 18:44:10
+2026-02-05 18:44:10 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 18:44:10
+2026-02-05 18:44:10 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 18:44:10
+2026-02-05 18:44:13 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 18:44:13
+2026-02-05 18:44:14 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 18:44:14
+2026-02-05 18:44:25 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on PIM Section | 05-02-2026 18:44:25
+2026-02-05 18:44:34 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - PIM Header Present | 05-02-2026 18:44:34
+2026-02-05 18:44:35 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Add Employee | 05-02-2026 18:44:35
+2026-02-05 18:44:43 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Add Employee Section Present | 05-02-2026 18:44:43
+2026-02-05 18:44:44 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the First | 05-02-2026 18:44:44
+2026-02-05 18:44:44 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Middle Name | 05-02-2026 18:44:44
+2026-02-05 18:44:44 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Enter the Last Name | 05-02-2026 18:44:44
+2026-02-05 18:44:44 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Save Button | 05-02-2026 18:44:44
+2026-02-05 18:44:54 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Employee List | 05-02-2026 18:44:54
+2026-02-05 18:44:57 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Employee List Section Present | 05-02-2026 18:44:57
+2026-02-05 18:44:57 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Click on Search | 05-02-2026 18:44:57
+2026-02-05 18:44:59 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Charan:Employee Record Exist | 05-02-2026 18:44:59
+2026-02-05 18:45:00 [TestNG-test-RegressionTests-2] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 18:45:00
+2026-02-05 18:45:00 [TestNG-test-RegressionTests-2] INFO  tests.AddEmployeeTest - === Test Finished: addEmployee ===

@@ -1,0 +1,31 @@
+2026-02-05 17:42:33 [TestNG-test-RegressionTests-3] INFO  tests.PunchTimeTest - === Test Started: verifyPunchInFlow ===
+2026-02-05 17:42:55 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Browser Launched Successfully | 05-02-2026 17:42:55
+2026-02-05 17:42:57 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 17:42:57
+2026-02-05 17:42:57 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 17:42:57
+2026-02-05 17:42:57 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 17:42:57
+2026-02-05 17:42:58 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 17:42:58
+2026-02-05 17:43:04 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 17:43:04
+2026-02-05 17:43:16 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Time Section | 05-02-2026 17:43:16
+2026-02-05 17:43:17 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Attendance | 05-02-2026 17:43:17
+2026-02-05 17:43:20 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on PunchIn/PunchOut Option | 05-02-2026 17:43:20
+2026-02-05 17:43:21 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Punch In Section Exist | 05-02-2026 17:43:21
+2026-02-05 17:43:28 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Punch In Date | 05-02-2026 17:43:28
+2026-02-05 17:43:29 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Punch In Time | 05-02-2026 17:43:29
+2026-02-05 17:43:29 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Note | 05-02-2026 17:43:29
+2026-02-05 17:43:29 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click Punch In | 05-02-2026 17:43:29
+2026-02-05 17:43:47 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Punch out Date | 05-02-2026 17:43:47
+2026-02-05 17:43:47 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Punch Out Time | 05-02-2026 17:43:47
+2026-02-05 17:43:47 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Punch Out | 05-02-2026 17:43:47
+2026-02-05 17:44:07 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Log out successfull | 05-02-2026 17:44:07
+2026-02-05 17:44:07 [TestNG-test-RegressionTests-3] INFO  tests.PunchTimeTest - === Test Finished: verifyPunchInFlow ===
+2026-02-05 18:42:50 [TestNG-test-RegressionTests-3] INFO  tests.PunchTimeTest - === Test Started: verifyPunchInFlow ===
+2026-02-05 18:42:57 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Browser Launched Successfully | 05-02-2026 18:42:57
+2026-02-05 18:43:00 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Login Page Loaded | 05-02-2026 18:43:00
+2026-02-05 18:43:00 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Username | 05-02-2026 18:43:00
+2026-02-05 18:43:01 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Enter the Password | 05-02-2026 18:43:01
+2026-02-05 18:43:05 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Submit | 05-02-2026 18:43:05
+2026-02-05 18:43:06 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Application launched successfully | 05-02-2026 18:43:06
+2026-02-05 18:43:19 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Time Section | 05-02-2026 18:43:19
+2026-02-05 18:43:20 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on Attendance | 05-02-2026 18:43:20
+2026-02-05 18:43:24 [TestNG-test-RegressionTests-3] INFO  listeners.ReportLogger - Click on PunchIn/PunchOut Option | 05-02-2026 18:43:24
+2026-02-05 18:43:46 [TestNG-test-RegressionTests-3] INFO  tests.PunchTimeTest - === Test Finished: verifyPunchInFlow ===

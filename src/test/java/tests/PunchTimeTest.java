@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 public class PunchTimeTest extends Base {
-	@Test
+	@Test(priority=3)
 	public void verifyPunchInFlow() {
 		DriverFactory.getDriver().get(ConfigReader.get("url"));
 		ReportLogger.stepPass("Browser Launched Successfully");

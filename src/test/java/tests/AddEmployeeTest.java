@@ -37,7 +37,7 @@ public class AddEmployeeTest extends Base {
 		}
 		return data;
 	}
-	@Test(dataProvider = "pimAddEmployeeData" )
+	@Test(dataProvider = "pimAddEmployeeData", priority=2 )
 	public void addEmployee(String firstName, String middleName, String lastName)
 	{			 	
 			DriverFactory.getDriver().get(ConfigReader.get("url"));

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-SanityTestSuite" class="navigator-link">
-              <span class="suite-name border-passed">SanityTestSuite</span>
+            <a href="#" panel-name="suite-RegressionTestSuite" class="navigator-link">
+              <span class="suite-name border-failed">RegressionTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-SanityTestSuite" class="navigator-link ">
-                    <span>C:\Users\rajas\eclipse-workspace\HybridFramework\suites\sanity.xml</span>
+                  <a href="#" panel-name="test-xml-RegressionTestSuite" class="navigator-link ">
+                    <span>C:\Users\rajas\eclipse-workspace\HybridFramework\suites\regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-SanityTestSuite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-RegressionTestSuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-SanityTestSuite" class="navigator-link ">
+                  <a href="#" panel-name="group-RegressionTestSuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-SanityTestSuite" class="navigator-link ">
+                  <a href="#" panel-name="times-RegressionTestSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-SanityTestSuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-RegressionTestSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-SanityTestSuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-RegressionTestSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-SanityTestSuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-RegressionTestSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,26 +92,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionTestSuite" class="hide-methods failed suite-RegressionTestSuite"> (hide)</a> <!-- hide-methods failed suite-RegressionTestSuite -->
+                      <a href="#" panel-name="suite-RegressionTestSuite" class="show-methods failed suite-RegressionTestSuite"> (show)</a> <!-- show-methods failed suite-RegressionTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionTestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTestSuite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLogin(Srinivasa, sri2341)">testLogin(Srinivasa, sri2341)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTestSuite" title="tests.PunchTimeTest" class="method navigator-link" hash-for-method="verifyPunchInFlow">verifyPunchInFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionTestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-SanityTestSuite" class="hide-methods passed suite-SanityTestSuite"> (hide)</a> <!-- hide-methods passed suite-SanityTestSuite -->
-                      <a href="#" panel-name="suite-SanityTestSuite" class="show-methods passed suite-SanityTestSuite"> (show)</a> <!-- show-methods passed suite-SanityTestSuite -->
+                      <a href="#" panel-name="suite-RegressionTestSuite" class="hide-methods passed suite-RegressionTestSuite"> (hide)</a> <!-- hide-methods passed suite-RegressionTestSuite -->
+                      <a href="#" panel-name="suite-RegressionTestSuite" class="show-methods passed suite-RegressionTestSuite"> (show)</a> <!-- show-methods passed suite-RegressionTestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-SanityTestSuite">
+                    <div class="method-list-content passed suite-RegressionTestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SanityTestSuite" title="tests.AddEmployeeTest" class="method navigator-link" hash-for-method="addEmployee(Charan, B, Kumar)">addEmployee(Charan, B, Kumar)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionTestSuite" title="tests.AddEmployeeTest" class="method navigator-link" hash-for-method="addEmployee(Srinivasa, N, Raj)">addEmployee(Srinivasa, N, Raj)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SanityTestSuite" title="tests.AddEmployeeTest" class="method navigator-link" hash-for-method="addEmployee(Srinivasa, N, Raj)">addEmployee(Srinivasa, N, Raj)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-RegressionTestSuite" title="tests.AddEmployeeTest" class="method navigator-link" hash-for-method="addEmployee(Charan, B, Kumar)">addEmployee(Charan, B, Kumar)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-SanityTestSuite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionTestSuite" title="tests.LoginTest" class="method navigator-link" hash-for-method="testLogin(Admin, admin123)">testLogin(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionTestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,21 +146,80 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-SanityTestSuite" class="panel SanityTestSuite">
-          <div class="suite-SanityTestSuite-class-passed">
+        <div panel-name="suite-RegressionTestSuite" class="panel RegressionTestSuite">
+          <div class="suite-RegressionTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.PunchTimeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPunchInFlow">
+                  </a> <!-- verifyPunchInFlow -->
+                  <span class="method-name">verifyPunchInFlow</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h6[text()=&apos;Punch In&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\rajas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52906}, goog:processID: 15004, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52906/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cff82f37bd3fef0386a1d28b2e609a05
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.WaitUtils.waitForVisibility(WaitUtils.java:23)
+	at pages.TimePage.navigateToPuncInSection(TimePage.java:54)
+	at tests.PunchTimeTest.verifyPunchInFlow(PunchTimeTest.java:28)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTestSuite-class-failed -->
+          <div class="suite-RegressionTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(Srinivasa, sri2341)">
+                  </a> <!-- testLogin(Srinivasa, sri2341) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(Srinivasa,sri2341)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;dashboard&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/auth/login&quot; (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\rajas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57737}, goog:processID: 1636, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57737/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ffa2070ae35c3c4d6d55f9a5d1e5180
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at utils.WaitUtils.waitForUrlContains(WaitUtils.java:39)
+	at pages.LoginPage.verifylogin(LoginPage.java:62)
+	at tests.LoginTest.testLogin(LoginTest.java:42)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTestSuite-class-failed -->
+          <div class="suite-RegressionTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">tests.AddEmployeeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addEmployee(Charan, B, Kumar)">
-                  </a> <!-- addEmployee(Charan, B, Kumar) -->
-                  <span class="method-name">addEmployee</span>
-                  <span class="parameters">(Charan,B,Kumar)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="addEmployee(Srinivasa, N, Raj)">
@@ -145,127 +228,229 @@
                   <span class="parameters">(Srinivasa,N,Raj)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployee(Charan, B, Kumar)">
+                  </a> <!-- addEmployee(Charan, B, Kumar) -->
+                  <span class="method-name">addEmployee</span>
+                  <span class="parameters">(Charan,B,Kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SanityTestSuite-class-passed -->
-        </div> <!-- panel SanityTestSuite -->
-        <div panel-name="test-xml-SanityTestSuite" class="panel">
+          </div> <!-- suite-RegressionTestSuite-class-passed -->
+          <div class="suite-RegressionTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(Admin, admin123)">
+                  </a> <!-- testLogin(Admin, admin123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(Admin,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionTestSuite-class-passed -->
+        </div> <!-- panel RegressionTestSuite -->
+        <div panel-name="test-xml-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\rajas\eclipse-workspace\HybridFramework\suites\sanity.xml</span>
+            <span class="header-content">C:\Users\rajas\eclipse-workspace\HybridFramework\suites\regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;SanityTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;RegressionTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
     &lt;listener class-name=&quot;retryAnalyzer.MyTransformer&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;SanityTests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;RegressionTests&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;tests.AddEmployeeTest&quot;/&gt;
+      &lt;class name=&quot;tests.PunchTimeTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SanityTests --&gt;
-&lt;/suite&gt; &lt;!-- SanityTestSuite --&gt;
+  &lt;/test&gt; &lt;!-- RegressionTests --&gt;
+&lt;/suite&gt; &lt;!-- RegressionTestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-SanityTestSuite" class="panel">
+        <div panel-name="testlist-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for SanityTestSuite</span>
+            <span class="header-content">Tests for RegressionTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SanityTests (1 class)</span>
+                <span class="test-name">RegressionTests (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-SanityTestSuite" class="panel">
+        <div panel-name="group-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for SanityTestSuite</span>
+            <span class="header-content">Groups for RegressionTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-SanityTestSuite" class="panel">
+        <div panel-name="times-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for SanityTestSuite</span>
+            <span class="header-content">Times for RegressionTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_SanityTestSuite');
-function tableData_SanityTestSuite() {
+suiteTableInitFunctions.push('tableData_RegressionTestSuite');
+function tableData_RegressionTestSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addEmployee')
 data.setCell(0, 2, 'tests.AddEmployeeTest')
-data.setCell(0, 3, 53368);
+data.setCell(0, 3, 67636);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addEmployee')
 data.setCell(1, 2, 'tests.AddEmployeeTest')
-data.setCell(1, 3, 44803);
-window.suiteTableData['SanityTestSuite']= { tableData: data, tableDiv: 'times-div-SanityTestSuite'}
+data.setCell(1, 3, 58772);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyPunchInFlow')
+data.setCell(2, 2, 'tests.PunchTimeTest')
+data.setCell(2, 3, 55303);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogin')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 29985);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 16544);
+window.suiteTableData['RegressionTestSuite']= { tableData: data, tableDiv: 'times-div-RegressionTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-SanityTestSuite">
-              </div> <!-- times-div-SanityTestSuite -->
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-RegressionTestSuite">
+              </div> <!-- times-div-RegressionTestSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-SanityTestSuite" class="panel">
+        <div panel-name="reporter-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for SanityTestSuite</span>
+            <span class="header-content">Reporter output for RegressionTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-SanityTestSuite" class="panel">
+        <div panel-name="ignored-methods-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-SanityTestSuite" class="panel">
+        <div panel-name="chronological-RegressionTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.AddEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.PunchTimeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
+                <span class="method-name">setUp(public void tests.PunchTimeTest.verifyPunchInFlow())</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.LoginTest.testLogin(java.lang.String,java.lang.String))</span>
+                <span class="method-start">1151 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.AddEmployeeTest.addEmployee(java.lang.String,java.lang.String,java.lang.String))</span>
+                <span class="method-start">1152 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLogin(Admin, admin123)</span>
+                <span class="method-start">17792 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddEmployeeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addEmployee(Srinivasa, N, Raj)</span>
-                <span class="method-start">3610 ms</span>
+                <span class="method-start">17792 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PunchTimeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPunchInFlow</span>
+                <span class="method-start">17806 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">48429 ms</span>
+                <span class="method-name">tearDown(public void tests.LoginTest.testLogin(java.lang.String,java.lang.String))</span>
+                <span class="method-start">34339 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">49677 ms</span>
+                <span class="method-name">setUp(public void tests.LoginTest.testLogin(java.lang.String,java.lang.String))</span>
+                <span class="method-start">37319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(Srinivasa, sri2341)</span>
+                <span class="method-start">39351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void tests.LoginTest.testLogin(java.lang.String,java.lang.String))</span>
+                <span class="method-start">69898 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PunchTimeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void tests.PunchTimeTest.verifyPunchInFlow())</span>
+                <span class="method-start">73316 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void tests.AddEmployeeTest.addEmployee(java.lang.String,java.lang.String,java.lang.String))</span>
+                <span class="method-start">85429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void tests.AddEmployeeTest.addEmployee(java.lang.String,java.lang.String,java.lang.String))</span>
+                <span class="method-start">87055 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addEmployee(Charan, B, Kumar)</span>
-                <span class="method-start">50640 ms</span>
+                <span class="method-start">88114 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">104016 ms</span>
+                <span class="method-name">tearDown(public void tests.AddEmployeeTest.addEmployee(java.lang.String,java.lang.String,java.lang.String))</span>
+                <span class="method-start">146887 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
