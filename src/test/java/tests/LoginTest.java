@@ -40,6 +40,7 @@ public class LoginTest extends Base{
 			ReportLogger.stepPass("Launch application");
 			pages.getLoginPage().verifylogin(user, pass); 
 			pages.getHomePage().logOut();
+			//Login Functionality checking
 //		wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(20));
 //		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='username']")));
 //		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='username']")));
